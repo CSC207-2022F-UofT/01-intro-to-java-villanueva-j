@@ -149,7 +149,6 @@ public class Basics {
         for (String s : words) {
             ret.append(s.charAt(0));
         }
-        // Fill in the rest of the body here
 
         return ret.toString();
     }
