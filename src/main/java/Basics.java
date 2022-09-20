@@ -145,7 +145,7 @@ public class Basics {
          */
         StringBuilder ret = new StringBuilder();
 
-        String[] words = to_split.split(" ", 6);
+        String[] words = to_split.split(" ", 7);
         for (String s : words) {
             ret.append(s.charAt(0));
         }
